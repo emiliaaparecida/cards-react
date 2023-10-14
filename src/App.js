@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card/Card.js';
+import image from './livro.jpg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <section className="cards">
+        <Card title="Pequena loja de veneno" text="A pequena loja de venenos é uma ficção histórica estonteante sobre segredos, sonhos e as formas." button="Comprar" image={image}/>
+        <Card title="Pequena loja de veneno" text="A pequena loja de venenos é uma ficção histórica estonteante sobre segredos, sonhos e as formas." button="Comprar" image={image}/>
+        <Card title="Pequena loja de veneno" text="A pequena loja de venenos é uma ficção histórica estonteante sobre segredos, sonhos e as formas." button="Comprar" image={image}/>
+      </section>
+    </>
   );
 }
 

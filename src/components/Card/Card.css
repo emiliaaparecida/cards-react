@@ -1,0 +1,36 @@
+.card {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 17px -6px rgba(0,0,0,0.1);
+}
+
+.card--image {
+    width: 100%;
+}
+
+.card--button {
+    background: #16CAB2;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card--button:hover {
+    background: #23e7cc;
+}
+
+.card--title {
+    text-transform: uppercase;
+}
+
+.card--cta {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
